@@ -10,9 +10,9 @@ class App extends Component {
     super(props);
     this.state = {
       gifs: [],
-      selectedGifId: "89Eko49m84Ja"
+      selectedGifId: ""
     };
-    this.search("homer");
+    this.search("");
   }
 
   search = (query) => {
